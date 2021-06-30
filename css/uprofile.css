@@ -1,0 +1,49 @@
+body{
+    background:linear-gradient(to left,aqua,black)
+}
+
+h1{
+    font-family:Cambria;
+    font-size:70px;
+    margin-top:0;
+    color:#fff;
+    text-align:justify;
+}
+.logo{
+    width:300px;
+   height:300px;
+   border:1px solid white;
+   float:left;
+   margin-left:20px;
+   border-radius:10px;
+}
+.box{
+    width:500px;
+    height:600px;
+    border:2px solid white;
+    margin-left:60%;
+    margin-top:-130px;
+    box-shadow: -10px -10px 10px  white;
+    border-radius:10px;
+ 
+}
+h2{
+    color:white;
+}
+#lable{
+    color: white;
+    font-size:20px;
+}
+input{
+    width:90%;
+    height:20px;
+    margin-left:20px;
+}
+#update{
+    width:150px;
+    height:30px;
+    background:linear-gradient(to left,violet,rgb(65, 207, 65));
+    margin-left:150px;
+    margin-top:30px;
+    border-radius:7px;
+}

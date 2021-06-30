@@ -1,0 +1,45 @@
+body{
+    background:url(images/Artificial-Intelligence-5.jpg);
+    background-size:cover;
+}
+.box{
+    width:400px;
+    height:600px;
+    border:1px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px  white;
+}
+.box h1{
+    color:white;
+    font-size:60px;
+    font-family: 'Lobster',cursive;
+}
+#a{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    margin-left: 100px;
+} 
+#lable{
+    color:white;
+    font-size: 20px;
+    margin-left:20px;
+}
+input{
+    margin-left:20px;
+    width:90%;
+    height:20px;
+}
+input:hover{
+     box-shadow: 0px 0px 10px 5px white;
+}
+
+#register{
+    width:150px;
+    height:30px;
+    margin-left:120px;
+    margin-top:15px;
+    border-radius: 6px;
+    color:black;
+    background:linear-gradient(to left,aqua,white)
+}

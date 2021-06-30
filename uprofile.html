@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uprofile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>update profile</title>
+</head>
+<body>
+    <h1><strong style="font-family:'lobster',cursive;">Guvi</strong> -tech deserves you</h1>
+    <div class="logo">
+        <img src="css/images/guvi.jpg "width=600px height=450px>
+    </div>
+    <div class="box">
+    <form name="myform2" action="update.php" method="POST">
+        <h2>UPDATE YOUR PROFILE</h2>
+        <p id="lable">Email</p>
+        <input type="text" name="email" placeholder="Enter your registered email" required="">
+
+        <p id="lable">AGE</p>
+        <input type="text" name="age" placeholder="Enter age" required="">
+
+        <p id="lable">Gender</p>
+        <input type="text" name="gender" placeholder="Enter gender" required="">
+
+        <p id="lable">DOB</p>
+        <input type="text" name="dob"   placeholder="dd/mm/yyyy" required="">
+
+        <p id="lable">mobile</p>
+        <input type="text" name="mobile" placeholder="enter mobile number" required="">
+
+        <input type="submit" name="" value="update" id="update">
+
+        <br><br>
+    </form>
+</div>
+</body>
+</html>

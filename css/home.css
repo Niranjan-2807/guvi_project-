@@ -1,0 +1,11 @@
+.logo{
+float:left;
+width:250px;
+height:200px;
+}
+.title{
+    float:left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 37px;
+    background-color:aliceblue;
+}
